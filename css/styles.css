@@ -1,0 +1,194 @@
+#filtre_homme,
+#filtre_femme {
+  cursor: pointer;
+}
+
+*{font-family: Lato, Arial}
+
+
+/*.haut {
+  background-image: url(../img/4490db2010141ccfd1bc2a0e3173a091-780x405.jpg);
+  background-size: cover;
+  /*background-position: 80px -120px;
+  /*background-position: 0px -350px;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+header {
+  height: 200px;
+}
+*/
+.haut .clignote,
+.clignote h5
+ {
+ 
+    animation: clignote 1s linear infinite;
+  }
+  @keyframes clignote {  
+    50% { opacity: 0; }
+  }
+
+
+
+.logo img {
+  width: 70px;
+  border: white 4px solid;
+  border-radius: 50%;
+}
+
+
+.dropdown-menu,
+.footer3,
+a.btn {
+  background-color: #99500b;
+}
+
+a.dropdown-item,
+.footer3 {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.drapeau img {
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  
+  
+}
+
+.RS img {
+  width: 30px;
+}
+
+.RS2 .bi {
+  font-size: 30px;
+}
+
+.user .bi {
+  font-size: 150%;
+  color: black;
+  padding-left: 5px;
+  
+  
+}
+
+footer a,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer1,
+.RS,
+.RS2 {
+  background-color: rgba(214, 214, 214, 0.5);
+  padding-bottom: 10px;
+}
+
+.footer1 .col-md-4 .bi{
+  color: #000000;
+}
+
+.card-body a:hover
+ {
+
+  color: #99500b;
+}
+
+.star .bi {
+  color: rgb(202, 183, 14);
+}
+
+.chemise .image img {
+  width: 40%;
+}
+
+.chemise .image2 img,
+.chemise .image3 img {
+  width: 40%;
+  padding: auto;
+}
+
+.fav i {
+  font-size: 30px;
+}
+
+.fav p {
+  font-size: 10px;
+  padding: 0;
+}
+
+.avis img:hover {
+  transform:none;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.couleur .rouge,
+.couleur .bleu,
+.couleur .vert {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.fav .bi {
+  font-size: 25px;
+  color: #000000;
+}
+
+.chemise p {
+  text-decoration: underline;
+  margin-bottom: 1px;
+}
+
+.text-center .h4 {
+  font-size: 20px;
+  text-align: start;
+}
+
+
+.centered a{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resa label {
+  display: block;
+  font-style: italic;
+color: #99500b;}
+
+.paiement p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#impression {
+  border: none;
+  background-color: none;
+ 
+}
+
+/*-------------------------*/
+.clicker {
+  
+  outline:none;
+  cursor:pointer;
+  }
+  
+  .hiddendiv{
+  display:none;
+  height:200px;
+  border:#000000 solid 2px;
+  }
+  
+  .clicker:focus + .hiddendiv{
+    display:block;
+    }

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body id="nos_produits">
+    <div class="container">
+        <div class="haut">
+            <a href="actualite.html">
+                <div class=" row row-cols-auto bg-dark m-auto position-relative text-light">
+                    <div class="col-md-10 text-center"><span>
+                            <p class="clignote mb-0"><span style="color: rgb(19, 243, 19) ;">LAST CHANCE</span> -50%
+                                STOCK
+                                LIMITÉ -10% SUPP DÈS 2 ARTICLES ACHETÉS*</p>
+                    </div>
+                    <div class="col-md-2 text-end">
+                        <div class="drapeau d-block text-end ">
+                            <img src="img/france.png" alt="">
+                            <img src="img/england.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <header class="row d-flex justify-content-between">
+            <div class="col-md-2 logo m-auto ">
+                <a classs="text-decoration-none" href="accueil.html"><img src="img/Capture6.png"
+                        class="d-block img.fluid m-auto" alt=""></a>
+            </div>
+            <form class="col-md-8 form>form-inline my-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="col-md-2 user text-end mt-5">
+                <a href=""><i class="bi bi-bag-check-fill"></i></a>
+                <a href=""><i class="bi bi-person-fill"></i></a>
+                <a href="#"></a><i class="bi bi-suit-heart-fill"></i></a>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #99500b">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="accueil.html">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Nos Produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="nos_produits.html">Voir Toutes les gammes</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="produits_homme.html">Homme</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="produits_femme.html">Femme</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="point_de_vente.html">Points de ventes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="avis.html">Avis</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                La Boutique
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="qui_sommes_nous.html">Qui sommes-nous?</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="recrutement.html">Recrutement</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="evenements.html">Evenements</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="presse.html">Presse</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualite.html">Actualité</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+         
+            <div class="container">
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <ul class="list-group">
+                                <li class="list-group-item active border-0" style="background-color: #99500b"
+                                    aria-current="true">Catégories</li>
+                                <li class="list-group-item fw-bold"><a href="">Toutes les catégories</a></li>
+                                <li class="list-group-item list-unstyled fw-bold" id="filtre_homme">Hommes</li>
+                                <li class="list-group-item"><a href="">Chemises</a></li>
+                                <li class="list-group-item"><a href="">Vestes</a></li>
+                                <li class="list-group-item"><a href="">Pantalons</a></li>
+                                <li class="list-group-item list-unstyled fw-bold" id="filtre_femme">Femmes</li>
+                                <li class="list-group-item"><a href="">Robes</a></li>
+                                <li class="list-group-item"><a href="">Chaussures</a></li>
+                                <li class="list-group-item"><a href="">Pantalonsf</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <!-------------------Chemises-------------------------->
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise1.html"><img src="img/imgP/chemise1.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="fiche/chemise1.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise2.html"><img src="img/imgP/chemise2.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chemise2.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise3.html"><img src="img/imgP/chemise3.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chemise3.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise4.html"><img src="img/imgP/chemise4.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chemise4.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise5.html"><img src="img/imgP/chemise5.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chemise5.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chemises">
+                                    <div class="card">
+                                        <a href="fiche/chemise6.html"><img src="img/imgP/chemise6.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chemise6.html">Chemise slim col italien Stanbridge </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-------------------Pantalons-------------------------->
+
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon1.html"><img src="img/imgP/pantalon1.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon1.html">Pantalon Slim laine mélangée Noir </a>
+                                            <p>40,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon2.html"><img src="img/imgP/Pantalon2.JPG"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon2.html">Pantalon Gris Foncé à rayures à pinces</a>
+                                            <p>40,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon3.html"><img src="img/imgP/pantalon3.JPG"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon3.html">Pantalon droit Laine Bleu Marine à pinces</a>
+                                            <p>40,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon4.html"><img src="img/imgP/pantalon4.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon4.html">Pantalon Slim Tweed Bleu Roi chevrons </a>
+                                            <p>40,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon5.html"><img src="img/imgP/pantalon5.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon5.html">Pantalon en laine Gris </a>
+                                            <p>40,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons">
+                                    <div class="card">
+                                        <a href="fiche/pantalon6.html"><img src="img/imgP/pantalon6.jpg"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/pantalon6.html">Pantalon Premium en laine Beige Foncé </a>
+                                            <p>40,00€€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-------------------Vestes-------------------------->
+
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste1.html"><img src="img/imgP/veste1.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste1.html">Veste Hollywood Beige </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste2.html"><img src="img/imgP/veste2.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste2.html">Veste Kigston Noir </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste3.html"><img src="img/imgP/veste3.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste3.html">Veste Caviar Gris Foncé </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste4.html"><img src="img/imgP/veste4.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste4.html">Veste costume Bleu Royal </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste5.html"><img src="img/imgP/veste5.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste5.html">Veste Confort Gris chiné </a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Vestes">
+                                    <div class="card">
+                                        <a href="fiche/veste6.html"><img src="img/imgP/veste6.png" class="card-img-top"
+                                                alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/veste6.html">Veste Texturé à carreau</a>
+                                            <p>60,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-------------------Robes-------------------------->
+
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                                <div class="card">
+                                    <a href="fiche/robe1.html"><img src="img/imgP/robe1.png" class="card-img-top"
+                                            alt="Un produit"></a>
+                                    <div class="card-body">
+                                        <a href="/robe1.html">Robe moulante, mi-longue, manche longues</a>
+                                        <p>90,00€</p>
+                                        <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                                <div class="card">
+                                    <a href="fiche/robe2.html"><img src="img/imgP/robe2.jpg" class="card-img-top w-75"
+                                            alt="Un produit"></a>
+                                    <div class="card-body">
+                                        <a href="/robe2.html">Robe Patineuse à imprimer Chaîne</a>
+                                        <p>90,00€</p>
+                                        <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                                <div class="card">
+                                    <a href="fiche/robe3.html"><img src="img/imgP/robe3.png" class="card-img-top w-75"
+                                            alt="Un produit"></a>
+                                    <div class="card-body">
+                                        <a href="/robe3.html">Robe moulante, mi-longue, manche longues</a>
+                                        <p>90,00€</p>
+                                        <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                            <div class="card">
+                                <a href="fiche/robe4.html"><img src="img/imgP/robe4.png" class="card-img-top"
+                                        alt="Un produit"></a>
+                                <div class="card-body">
+                                    <a href="/robe4.html">Robe à imprimer</a>
+                                    <p>90,00€</p>
+                                    <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                            <div class="card">
+                                <a href="fiche/robe5.html"><img src="img/imgP/robe5.png" class="card-img-top"
+                                        alt="Un produit"></a>
+                                <div class="card-body">
+                                    <a href="/robe5.html">Robe Moulante mi-Longue Cache-coeur noué à la taille</a>
+                                    <p>90,00€</p>
+                                    <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 bloc-produit mb-3" data-categorie="Robes">
+                            <div class="card">
+                                <a href="fiche/robe6.html"><img src="img/imgP/robe6.png" class="card-img-top"
+                                        alt="Un produit"></a>
+                                <div class="card-body">
+                                    <a href="/robe6.html">Robe moulante, mi-longue, manche longues</a>
+                                    <p>90,00€</p>
+                                    <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                </div>
+                            </div>
+                        </div>
+
+                                <!-------------------Chaussures-------------------------->
+
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure1.html"><img src="img/imgP/Chaussure1.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure1.html">Escarpins Noir Talon Haut </a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure2.html"><img src="img/imgP/chaussure2.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure2.html">Escarpins bi-color - Talons Hauts Bout Fermé </a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure3.html"><img src="img/imgP/chaussure3.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure3.html">Escarpins Femme Blanc Talon Haut</a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure4.html"><img src="img/imgP/chaussure4.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure4.html">Bottine classique à Talon Haut </a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure5.html"><img src="img/imgP/chaussure5.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure5.html">Escarpins Léopard Cuir Verni talon haut</a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Chaussures">
+                                    <div class="card">
+                                        <a href="fiche/chaussure6.html"><img src="img/imgP/chaussure6.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/chaussure6.html">Escarpin Talon Imprimé Talon haut </a>
+                                            <p>120,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-------------------Pantalon femmes-------------------------->
+
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalonsf">
+                                    <div class="card">
+                                        <a href="fiche/pantalonf1.html"><img src="img/imgP/pantalonf1.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf1.html">Pantalon large en maille</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalonsf">
+                                    <div class="card">
+                                        <a href="fiche/pantalonf2.html"><img src="img/imgP/pantalonf2.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf2.html">Pantalon large fluide femme</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons Femmes">
+                                    <div class="card">
+                                        <a href="fiche/pantalonf3.html"><img src="img/imgP/pantalonf3.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf3.html">Pantalon large imprimé femme</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons Femmes">
+                                    <div class="card">
+                                        <a href="fiche/pantalonf4.html"><img src="img/imgP/pantalonf4.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf4.html">Pantalon chino femme</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalons Femmes">
+                                    <div class="card">
+                                        <a href="fiche/Pantalonf5.html"><img src="img/imgP/pantalonf5.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf5.html">Pantalon élastiqué à la taille femme</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 bloc-produit mb-3" data-categorie="Pantalonsf">
+                                    <div class="card">
+                                        <a href="fiche/Pantalonf6.html"><img src="img/imgP/pantalonf6.png"
+                                                class="card-img-top" alt="Un produit"></a>
+                                        <div class="card-body">
+                                            <a href="/Pantalonf6.html">Pantalon legging femme</a>
+                                            <p>45,00€</p>
+                                            <!--<p class="card-text">Catégorie : <a href="#">Chemises</a></p>-->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+    <br>
+
+    <!----------------------Footer---------------------->
+
+    <div class="container border-top border-dark p-0">
+        <footer>
+            <div class="row footer1 ms-0 me-0">
+                <div class="col-md-4 ">
+                    <h2>A PROPOS</h2>
+                    <a href="qui_sommes_nous.html">Qui sommes-nous?</a>
+                    <br>
+                    <a href="point_de_vente.html"><i class="bi bi-geo-alt"></i>Nos Boutique</a>
+                    <br>
+                    <a href="contact.html">Contact</a>
+                    <br>
+                    <a href="contact.html">Plan du site
+                        <br>
+                        <a href="recrutement.html">Recrutement</a>
+                        <br>
+                </div>
+                <div class="col-md-4 ">
+                    <h2>INFOS PRATIQUES</h2>
+                    <a href="mention_legale.html">Mentions legales
+                    </a>
+                    <br>
+                    <a href="cgv.html">Conditions Générales de ventes
+                        <br>
+                    </a><a href="contact.html">Presse
+                    </a>
+                    <br>
+                    <a href=""><i class="bi bi-printer" onclick="imprimer_page()"></i></a>
+                    <input id="impression" name="impression" type="button" onclick="imprimer_page()"
+                        value="Imprimer la page" />
+                    <script type="text/javascript">
+                        function imprimer_page() {
+                            window.print();
+                        }
+                    </script>
+                    <br>
+                </div>
+                <div class="col-md-4 ">
+                    <h2>NEWSLETTER</h2>
+                    <br>Recevez en avant première les dérnières nouveautés & exclusivités
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Saisissez votre e-mail"
+                            aria-label="email">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <div class="RS text-center">
+            <a href="http://twitter.com/"><img src="img/twitter.png" alt=""></a>
+            <a href="https://facebook.com/"><img src="img/facebook.png" alt=""></a>
+            <a href="https://instagram.com/"><img src="img/instagram.png" alt=""></a>
+            <a href="https://pinterest.com/"><img src="img/pinterest.png" alt=""></a>
+        </div>
+        <footer class="footer3 text-center">Copyright 2022 Sliver Lamine DRAME ©</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+            <script src="js/silver.js"></script>
+    </div>
+
+    </div>
+</body>
+
+</html>
