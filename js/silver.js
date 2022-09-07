@@ -49,7 +49,7 @@ if(document.getElementById('nos_produits')) {
 
         if (choix == 'Hommes' && (cat == 'Vestes' || cat == 'Pantalons' || cat == 'Chemises')) {
           Blocs[i].style.display = "block";
-        } else if (choix == 'Femmes' && (cat == 'Chaussures' || cat == 'Pantalonsf' || cat == 'Robes')) {
+        } else if (choix == 'Femmes' && (cat == 'Chaussures' || cat == ' Pantalons' || cat == 'Robes')) {
           Blocs[i].style.display = "block";
         } 
         else { Blocs[i].style.display = "none";

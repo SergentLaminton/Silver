@@ -175,20 +175,3 @@ color: #99500b;}
   background-color: none;
  
 }
-
-/*-------------------------*/
-.clicker {
-  
-  outline:none;
-  cursor:pointer;
-  }
-  
-  .hiddendiv{
-  display:none;
-  height:200px;
-  border:#000000 solid 2px;
-  }
-  
-  .clicker:focus + .hiddendiv{
-    display:block;
-    }
