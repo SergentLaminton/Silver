@@ -3,8 +3,16 @@
   cursor: pointer;
 }
 
-*{font-family: Lato, Arial}
+@font-face {
+  font-family: 'blackswordregular';
+  src: url('../fonts/blacksword-webfont.woff2') format('woff2'),
+       url('../fonts/blacksword-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+
+*{font-family: Lato, Arial}
 
 /*.haut {
   background-image: url(../img/4490db2010141ccfd1bc2a0e3173a091-780x405.jpg);
