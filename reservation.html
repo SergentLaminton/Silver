@@ -124,30 +124,30 @@
         <div class=row>
             <h1 class="text-center pt-2">
                 PRISE DE RENDEZ-VOUS</h1>
-                <p class="text-center fst-italic fs-5 pt-3">N'hésitez pas à venir rencontrer nos coachs
-                    personal shopper</p>
+            <p class="text-center fst-italic fs-5 pt-3">N'hésitez pas à venir rencontrer nos coachs
+                personal shopper</p>
             <br><br>
-            <div class="col-md-6 m-auto text-center"><img src="img/boutique-saint-honore2.webp" class="img-fluid w-75"
+            <div class="col-md-6 m-auto text-center"><img src="img/boutique-saint-honore2.webp" class="img-fluid w-75 m-auto"
                     alt=""></div>
             <div class="col-md-6">
                 <form>
-                    <div class="form-group w-75">
+                    <div class="form-group w-75 m-auto">
                         <label for="nom">Nom</label>
                         <input type="text" class="form-control" id="nom" placeholder="Nom*">
                     </div>
-                    <div class="form-group w-75">
+                    <div class="form-group w-75 m-auto">
                         <label for="nom">Prénom</label>
                         <input type="text" class="form-control" id="Prénom" placeholder="Prénom*">
                     </div>
-                    <div class="form-group w-75">
+                    <div class="form-group w-75 m-auto">
                         <label for="email">Entrez votre mail</label>
                         <input type="email" class="form-control" id="email" placeholder="Votre Email*">
                     </div>
-                    <div class="form-group w-75">
+                    <div class="form-group w-75 m-auto">
                         <label for="Telephone">Telephone</label>
                         <input type="text" class="form-control" maxlength="10" placeholder=Téléphone*>
                     </div>
-                    <div class="form-group w-75">
+                    <div class="form-group w-75 m-auto">
                         <label for="selection"> Choisir une Boutique</label>
                         <select id="selection" class="form-control form-select">
                             <option value="">L'haÿ-les-roses</option>
@@ -158,8 +158,8 @@
                             </datalist>
                         </select>
                     </div>
-                
-                    <div class="form-group w-75">
+
+                    <div class="form-group w-75 m-auto">
                         <label for="date">Date</label>
                         <input type="date" name="date" id="date" class="form-control">
 
@@ -168,76 +168,78 @@
                         <input type="checkbox" name="couleur" value="bleu" checked>Matin
                         <input type="checkbox" name="couleur" value="rouge">Après-midi<br>
                         <input type="hidden" name="info" id="info" value="une info">
-
                     </div>
-                    <br>
-                    <input type="submit" id="valider" value="Valider">
+                    <div class="pb-3 pt-3 fs-5 text-center">
+                        <input type="submit" id="valider" value="Valider" style="background-color: #99500b;" class="text-light">
+                    </div>
+                    
                 </form>
             </div>
-
         </div>
-        <br>
-        <p class="text-center fst-italic fs-5 pt-3">A très vite...</p>
-        <!----------------------Footer---------------------->
 
-        <div class="container border-top border-dark p-0">
-            <footer>
-                <div class="row footer1 ms-0 me-0">
-                    <div class="col-md-4 ">
-                        <h2>A PROPOS</h2>
-                        <a href="qui_sommes_nous.html">Qui sommes-nous?</a>
+    </div>
+    <br>
+    <p class="text-center fst-italic fs-5 pt-3">A très vite...</p>
+    <!----------------------Footer---------------------->
+
+    <div class="container border-top border-dark p-0">
+        <footer>
+            <div class="row footer1 ms-0 me-0">
+                <div class="col-md-4 ">
+                    <h2>A PROPOS</h2>
+                    <a href="qui_sommes_nous.html">Qui sommes-nous?</a>
+                    <br>
+                    <a href="point_de_vente.html"><i class="bi bi-geo-alt"></i>Nos Boutique</a>
+                    <br>
+                    <a href="contact.html">Contact</a>
+                    <br>
+                    <a href="contact.html">Plan du site
                         <br>
-                        <a href="point_de_vente.html"><i class="bi bi-geo-alt"></i>Nos Boutique</a>
+                        <a href="recrutement.html">Recrutement</a>
                         <br>
-                        <a href="contact.html">Contact</a>
-                        <br>
-                        <a href="contact.html">Plan du site
-                            <br>
-                            <a href="recrutement.html">Recrutement</a>
-                            <br>
-                    </div>
-                    <div class="col-md-4 ">
-                        <h2>INFOS PRATIQUES</h2>
-                        <a href="mention_legale.html">Mentions legales
-                        </a>
-                        <br>
-                        <a href="cgv.html">Conditions Générales de ventes
-                            <br>
-                        </a><a href="contact.html">Presse
-                        </a>
-                        <br>
-                        <a href=""><i class="bi bi-printer" onclick="imprimer_page()"></i></a>
-                        <input id="impression" name="impression" type="button" onclick="imprimer_page()"
-                            value="Imprimer la page" />
-                        <script type="text/javascript">
-                            function imprimer_page() {
-                                window.print();
-                            }
-                        </script>
-                        <br>
-                    </div>
-                    <div class="col-md-4 ">
-                        <h2>NEWSLETTER</h2>
-                        <br>Recevez en avant première les dérnières nouveautés & exclusivités
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Saisissez votre e-mail"
-                                aria-label="email">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Envoyer</button>
-                        </form>
-                    </div>
                 </div>
-            </footer>
-            <div class="RS text-center">
-                <a href="http://twitter.com/"><img src="img/twitter.png" alt=""></a>
-                <a href="https://facebook.com/"><img src="img/facebook.png" alt=""></a>
-                <a href="https://instagram.com/"><img src="img/instagram.png" alt=""></a>
-                <a href="https://pinterest.com/"><img src="img/pinterest.png" alt=""></a>
+                <div class="col-md-4 ">
+                    <h2>INFOS PRATIQUES</h2>
+                    <a href="mention_legale.html">Mentions legales
+                    </a>
+                    <br>
+                    <a href="cgv.html">Conditions Générales de ventes
+                        <br>
+                    </a><a href="contact.html">Presse
+                    </a>
+                    <br>
+                    <a href=""><i class="bi bi-printer" onclick="imprimer_page()"></i></a>
+                    <input id="impression" name="impression" type="button" onclick="imprimer_page()"
+                        value="Imprimer la page" />
+                    <script type="text/javascript">
+                        function imprimer_page() {
+                            window.print();
+                        }
+                    </script>
+                    <br>
+                </div>
+                <div class="col-md-4 ">
+                    <h2>NEWSLETTER</h2>
+                    <br>Recevez en avant première les dérnières nouveautés & exclusivités
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Saisissez votre e-mail"
+                            aria-label="email">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Envoyer</button>
+                    </form>
+                </div>
             </div>
-            <footer class="footer3 text-center">Copyright 2022 Sliver Lamine DRAME ©</footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-                crossorigin="anonymous"></script>
+        </footer>
+        <div class="RS text-center">
+            <a href="http://twitter.com/"><img src="img/twitter.png" alt=""></a>
+            <a href="https://facebook.com/"><img src="img/facebook.png" alt=""></a>
+            <a href="https://instagram.com/"><img src="img/instagram.png" alt=""></a>
+            <a href="https://pinterest.com/"><img src="img/pinterest.png" alt=""></a>
         </div>
+        <footer class="footer3 text-center">Copyright 2022 Sliver Lamine DRAME ©</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+    </div>
 
 </body>
 
